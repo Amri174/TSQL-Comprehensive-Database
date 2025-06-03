@@ -81,6 +81,16 @@ phone Varchar2(20));
 desc WORKERSKILL;
 ````
 
+### Worker Table
+
+````
+create table worker(
+name Varchar2(20),
+age number(3)
+
+create unique index sno on worker(name);;
+````
+
 ### trial Table (not inclusive)
 
 ````
