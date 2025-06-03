@@ -79,8 +79,6 @@ city Varchar2(10),
 phone Varchar2(20));
 
 desc WORKERSKILL;
-
-drop table WORKERSKILL;
 ````
 
 ### trial Table (not inclusive)
