@@ -86,6 +86,14 @@ delete from WORKERSKILL;
 delete from type_info;
 ````
 
+### Worker Table
+
+````
+select name as workername, lpad(age,4,'--') as age from worker;
+select name, length(name) as length from worker order by length(name);
+select translate(name,'IC','#*') as "NAME" from worker;
+````
+
 
 ### trial Table (not inclusive)
 
